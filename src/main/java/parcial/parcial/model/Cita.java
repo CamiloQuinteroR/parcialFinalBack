@@ -12,12 +12,12 @@ public class Cita {
     private String id;
     private String idEspecialidad;
     private String fecha;
-    private Strign ubicacion;
-    private Strign estado;
+    private String ubicacion;
+    private String estado;
     private String doctor;
 
 
-    public Cita(String id, String idEspecialidad, String fecha, String ubicacion,String estado, Strign doctor) {
+    public Cita(String id, String idEspecialidad, String fecha, String ubicacion,String estado, String doctor) {
         this.id = id;
         this.idEspecialidad= idEspecialidad;
         this.fecha= fecha;
